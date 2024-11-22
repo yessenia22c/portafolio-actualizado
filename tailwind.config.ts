@@ -12,6 +12,12 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      dropShadow: {
+        'custom': '-10px 11px 8px #000000a9',
+      },
+      borderColor: {
+        'custom': 'rgb(0 186 149 / var(--tw-border-opacity, 1))',
+      },
     },
   },
   plugins: [],
