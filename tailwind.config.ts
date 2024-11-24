@@ -14,7 +14,7 @@ export default {
         foreground: "var(--foreground)",
       },
       dropShadow: {
-        'custom': '-10px 11px 8px #000000a9',
+        'custom': '-8px 10px 15px #0000004b',
       },
       borderColor: {
         'custom': 'rgb(0 186 149 / var(--tw-border-opacity, 1))',
