@@ -1,10 +1,11 @@
 import React from 'react'
+import { Tecnologias } from './Tecnologias';
 
 export const Content = () => {
   return (
     <main className=" flex flex-col gap-8 row-start-2 items-center sm:items-start">
       <section className="lg:grid flex flex-col grid-cols-3 grid-flow-col gap-4">
-        <article className="bg-gradient-to-b flex-col flex lg:flex-col md:flex-row md:gap-4 dark:from-[#1194ff3a] dark:to-[#00132e] border border-[#00ba95] dark:border-[#00ba95] p-4 rounded-xl">
+        <article className="bg-gradient-to-b flex-col flex lg:flex-col md:flex-row md:gap-4 dark:from-[#1194ff3a] dark:to-[#00132e] border  border-gray-800  dark:border-[#00ba95] p-4 rounded-xl">
           <picture className="flex w-auto flex-col  md:items-start  items-center justify-center ">
             <img
               src="./img/YESSENIA-perfil.png"
@@ -13,16 +14,16 @@ export const Content = () => {
             />
           </picture>
           <div className='w-full'>
-            <h2 className="text-2xl lg:text-wrap md:text-nowrap font-bold dark:text-white text-[#1b937b]">
-              Yessenia Villarte V.
+            <h2 className="text-2xl lg:text-wrap md:text-nowrap font-bold dark:text-white text-gray-800">
+              Yessenia Villarte Vaca
             </h2>
-            <h2 className="text-sm dark:text-white text-[#197865a2]">
+            <h2 className="text-sm dark:text-white text-gray-600">
               Técnico Superior en Informática
             </h2>
             <div className="flex flex-wrap gap-4 mt-4">
               <a
-                className="inline-flex items-center text-[13px] justify-center gap-2 px-2 py-1 text-[#1b937b] transition bg-white 
-                border border-[#1b937b] rounded-full dark:bg-gray-800 dark:border-gray-600 dark:text-white 
+                className="inline-flex items-center text-[13px] justify-center gap-2 px-2 py-1 text-white transition bg-gray-800
+                border rounded-full dark:bg-gray-800 dark:border-gray-600 dark:text-white 
                 focus-visible:ring-yellow-500/80 text-md hover:bg-gray-900 hover:border-gray-700 hover:text-white 
                 dark:hover:bg-gray-100 dark:hover:border-gray-300 dark:hover:text-black group max-w-fit focus:outline-none 
                 focus-visible:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-offset-2 active:bg-black"
@@ -46,8 +47,8 @@ export const Content = () => {
               </a>
               
               <a href="mailto:yessenia.contactos@gmail.com"
-              className="inline-flex items-center text-[13px] justify-center gap-2 px-2 py-1 text-[#1b937b] transition bg-white 
-              border border-[#1b937b] rounded-full dark:bg-gray-800 dark:border-gray-600 dark:text-white 
+              className="inline-flex items-center text-[13px] justify-center gap-2 px-2 py-1  text-white transition bg-gray-800 
+              border rounded-full dark:bg-gray-800 dark:border-gray-600 dark:text-white 
               focus-visible:ring-yellow-500/80 text-md hover:bg-gray-900 hover:border-gray-700 hover:text-white 
               dark:hover:bg-gray-100 dark:hover:border-gray-300 dark:hover:text-black group max-w-fit focus:outline-none 
               focus-visible:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-offset-2 active:bg-black">
@@ -57,8 +58,8 @@ export const Content = () => {
             </div>
             <div className="flex flex-wrap gap-4 mt-4">
                 <a href="mailto:yessenia.contactos@gmail.com"
-              className="inline-flex items-center text-[13px] justify-center gap-2 px-2 py-1 text-[#1b937b] transition bg-white 
-              border border-[#1b937b] rounded-full dark:bg-gray-800 dark:border-gray-600 dark:text-white 
+              className="inline-flex items-center text-[13px] justify-center gap-2 px-2 py-1 text-white transition bg-gray-800 
+              border rounded-full dark:bg-gray-800 dark:border-gray-600 dark:text-white 
               focus-visible:ring-yellow-500/80 text-md hover:bg-gray-900 hover:border-gray-700 hover:text-white 
               dark:hover:bg-gray-100 dark:hover:border-gray-300 dark:hover:text-black group max-w-fit focus:outline-none 
               focus-visible:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-offset-2 active:bg-black">
@@ -74,8 +75,8 @@ export const Content = () => {
                 Contáctame
                 </a>
                 <a href="http://" target="_blank" rel="noopener noreferrer"
-              className="inline-flex items-center text-[13px] justify-center gap-2 px-2 py-1 text-[#1b937b] transition bg-white 
-              border border-[#1b937b] rounded-full dark:bg-gray-800 dark:border-gray-600 dark:text-white 
+              className="inline-flex items-center text-[13px] justify-center gap-2 px-2 py-1 text-white transition bg-gray-800
+              border rounded-full dark:bg-gray-800 dark:border-gray-600 dark:text-white 
               focus-visible:ring-yellow-500/80 text-md hover:bg-gray-900 hover:border-gray-700 hover:text-white 
               dark:hover:bg-gray-100 dark:hover:border-gray-300 dark:hover:text-black group max-w-fit focus:outline-none 
               focus-visible:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-offset-2 active:bg-black">
@@ -94,10 +95,10 @@ export const Content = () => {
             </div>
           </div>
         </article>
-        <article className="bg-gradient-to-b lg:col-span-2 from-[#1194ff3a] to-[#00132e]  border border-[#00ba95] p-8 rounded-xl">
+        <article className="bg-gradient-to-b lg:col-span-2 dark:from-[#1194ff3a] dark:to-[#00132e] border dark:border-[#00ba95] border-gray-800 p-8 rounded-xl">
           <div>
-            <h3 className="text-2xl font-bold mb-4 w-auto">Sobre mí</h3>
-            <p className="text-wrap mb-2">
+            <h3 className="text-2xl font-bold mb-4 w-auto dark:text-white text-gray-800">Sobre mí</h3>
+            <p className="text-wrap mb-2 dark:text-white text-gray-800">
               <strong className="text-[#00ba95]">+2 años de experiencia </strong>como profesional en Informática{" "}
               {" "}
               <strong className="text-[#00ba95]">
@@ -106,16 +107,20 @@ export const Content = () => {
               actualmente enfocada en el desarrollo y diseño de
               aplicaciones web.
             </p>
-            <p className="mb-2">
+            <p className="text-wrap mb-2 dark:text-white text-gray-800">
               Desde los 16 años, me he sumergido en el mundo de la tecnología.{" "}
                Comencé estudiando diseño gráfico como base para trabajar{" "}
               en esta área y, posteriormente, consolidar mi carrera de informáticas.
             </p>
-            <p className="mb-2">
+            <p className="text-wrap mb-2 dark:text-white text-gray-800">
               A lo largo de diversos proyectos, he tenido la oportunidad de{" "}
               demostrar mis habilidades y fusionar mis conocimientos en
               ambas disciplinas.
             </p>
+          </div>
+          <div>
+            <h3 className="text-2xl font-bold mb-4 w-auto dark:text-white text-gray-800">Tecnologías que domino:</h3>
+            <Tecnologias></Tecnologias>
           </div>
         </article>
       </section>
