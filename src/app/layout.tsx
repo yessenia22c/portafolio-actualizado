@@ -16,6 +16,7 @@ const geistMono = localFont({
 export const metadata: Metadata = {
   title: "Yessenia - Desarrolladora Web",
   description: "Desarrolladora Web Full Stack",
+  
 };
 
 export default function RootLayout({
@@ -25,6 +26,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es">
+      <head>
+        <meta property="og:image" content="./yessenia-portafolio.png"/>
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
