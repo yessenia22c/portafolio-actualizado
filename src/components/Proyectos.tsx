@@ -10,8 +10,8 @@ export const Proyectos = () => {
           alt="Proyecto sistema de control de ventas"
         />
         <div className="flex flex-col flex-wrap">
-            <a className="flex gap-2 font-bold text-xl text-white dark:text-[#00ba95]" href="https://frontend-sisicap.vercel.app/login" target='_blank'>
-                <h3 className="font-bold text-xl text-white dark:text-[#00ba95]">
+            <a className="flex gap-2 font-bold text-xl text-gray-800 dark:text-[#00ba95]" href="https://frontend-sisicap.vercel.app/login" target='_blank'>
+                <h3 className="font-bold text-xl text-gray-800 dark:text-[#00ba95]">
                 Sistema de control de ventas</h3>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -34,7 +34,7 @@ export const Proyectos = () => {
             diseño hasta el desarrollo y el despliegue. (Para acceder a la demo
             solicitar acceso)
           </p>
-          <h4 className="font-semibold text-lg text-white dark:text-[#00ba95]">
+          <h4 className="font-semibold text-lg text-gray-800 dark:text-[#00ba95]">
             Tecnologías
           </h4>
           <div>
@@ -90,8 +90,8 @@ export const Proyectos = () => {
           alt="Proyecto sistema de control de ventas"
         />
         <div className="flex flex-col flex-wrap">
-          <a className="flex gap-2 font-bold text-xl text-white dark:text-[#00ba95]" href="https://ai-detecta-estafa.vercel.app/" target='_blank'>
-                <h3 className="font-bold text-xl text-white dark:text-[#00ba95]">
+          <a className="flex gap-2 font-bold text-xl text-gray-800 dark:text-[#00ba95]" href="https://ai-detecta-estafa.vercel.app/" target='_blank'>
+                <h3 className="font-bold text-xl text-gray-800 dark:text-[#00ba95]">
                 IA Detecta Estafa</h3>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -107,12 +107,12 @@ export const Proyectos = () => {
             </a>
           <p className="my-2 text-wrap">
             Proyecto de Inteligencia Artificial para Detectar Sitios Web
-            Fraudulentos Desarrollé una aplicación web con React y Next.js,
+            Fraudulentos. Desarrollé esta aplicación web con React y Next.js,
             integrando modelos de IA GPT-3 y GPT-4, y la desplegué en Vercel.
             Adquirí habilidades en el manejo de modelos de IA y el uso del SDK
-            de Vercel para integrarlos.
+            de Vercel.
           </p>
-          <h4 className="font-semibold text-lg text-white dark:text-[#00ba95]">
+          <h4 className="font-semibold text-lg text-gray-800 dark:text-[#00ba95]">
             Tecnologías
           </h4>
           <div>
@@ -153,8 +153,8 @@ export const Proyectos = () => {
           alt="Proyecto sistema de control de ventas"
         />
         <div className="flex flex-col flex-wrap">
-          <a className="flex gap-2 font-bold text-xl text-white dark:text-[#00ba95]" href="https://www.eliteiso.org/cursos" target='_blank'>
-                <h3 className="font-bold text-xl text-white dark:text-[#00ba95]">
+          <a className="flex gap-2 font-bold text-xl text-gray-800 dark:text-[#00ba95]" href="https://www.eliteiso.org/cursos" target='_blank'>
+                <h3 className="font-bold text-xl text-gray-800 dark:text-[#00ba95]">
                 Tienda virtual</h3>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -171,11 +171,11 @@ export const Proyectos = () => {
           <p className="my-2 text-wrap">
             Implementado con Wordpress y Woocommerce para la empresa ELITEISO
             S.R.L. En este proyecto, trabajé de manera individual, implementado
-            el CMS Woocommerce y el plugin Woocommerce, así tambien,la pasarela
+            el CMS WordPress y el plugin Woocommerce, así tambien,la pasarela
             de pago LIBELULA.BO configurada para pagos nacionales e
             internacionales.
           </p>
-          <h4 className="font-semibold text-lg text-white dark:text-[#00ba95]">
+          <h4 className="font-semibold text-lg text-gray-800 dark:text-[#00ba95]">
             Tecnologías
           </h4>
           <div>
