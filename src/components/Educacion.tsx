@@ -11,7 +11,7 @@ export const Educacion = () => {
         <article className='bg-gradient-to-b dark:text-white text-gray-800 dark:from-[#1194ff3a] dark:to-[#00132e] border dark:border-[#00ba95] border-gray-800 p-8 rounded-xl'>
             <h3 className='font-semibold text-lg'>SARGENTO DE RESERVA DE INGENIERÍA</h3>
             <time className='font-light text-sm' dateTime="2022-01-01">2021 - 2024</time>
-            <p>Instrucción y educación en materia militar con especialidad en ingenería realizados en la Escuela Militar de Ingeniería - UASC</p>
+            <p>Instrucción y educación en materia militar con especialidad en ingeniería realizados en la Escuela Militar de Ingeniería - UASC</p>
         </article>
         <article className='bg-gradient-to-b dark:text-white text-gray-800 dark:from-[#1194ff3a] dark:to-[#00132e] border dark:border-[#00ba95] border-gray-800 p-8 rounded-xl'>
             <h3 className='font-semibold text-lg'>TEC. DISEÑO GRÁFICO</h3>
